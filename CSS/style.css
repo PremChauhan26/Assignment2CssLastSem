@@ -1,0 +1,74 @@
+
+body {
+    font-family: 'Font Awesome 6 Free', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8F8;
+    color: #0E0E0E;
+   
+}
+
+/** Header **/
+
+header {
+    background-color: #ff8341;
+    color: #F8F8F8;
+    padding: 20px;
+    text-align: center;
+}
+
+/** Main Content Section **/
+
+#lyricsSection {
+    padding: 20px;
+    background-image: url('../Image/beautiful-red-pink-sky-design.jpg');
+    background-size:cover;
+    border-radius: 10px; /* Adding rounded corners to the lyrics section */
+}
+
+#lyricsSection h2 {
+    color: #000000;
+}
+
+#lyricsSection p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+
+/* Representing very calm  emotion here */
+#lyricsSection p:nth-child(1),
+#lyricsSection p:nth-child(5) 
+{
+    font-style: italic;
+    color: #00d9ff;
+}
+
+/* Representing a more intense emotion for the second part of the lyrics */
+#lyricsSection p:nth-child(2),
+#lyricsSection p:nth-child(6),
+#lyricsSection p:nth-child(7),
+#lyricsSection p:nth-child(8) 
+{
+    font-weight: bold;
+    color: #ddfe04;
+}
+
+/* Representing a pleading emotion for the last part of the lyrics */
+#lyricsSection p:nth-child(9),
+#lyricsSection p:nth-child(10) {
+    font-weight: bold;
+    font-style: italic;
+    color: #ff0101;
+}
+
+/** Footer **/
+
+footer {
+    background-color: #0E0E0E;
+    color: #F8F8F8;
+    padding: 10px;
+    text-align: center;
+}
